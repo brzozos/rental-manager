@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      password: secret
+      username: company-service
+      database: company
+
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:29092
+
